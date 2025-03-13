@@ -21,7 +21,7 @@ class MainApplication(tk.Tk):
         self.savings_progress = 0
 
         # Список категорій витрат та словник для збереження витрат за категоріями
-        self.expense_categories = ['Їжа', 'Транспорт', 'Житло', 'Розваги', 'Одяг', 'Здоров’я', 'Інше']
+        self.expense_categories = ['FOOD', 'Transport', 'Apartment', 'Activity', 'Clother', 'Health', 'Other']
         self.expense_details = {category: [] for category in self.expense_categories}
 
         # Налаштування за замовчуванням
